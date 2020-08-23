@@ -1,3 +1,6 @@
+.body html{
+    height: 100vh;
+}
 
 .container{
     background-image:url(wt.jpg);
