@@ -1,0 +1,51 @@
+.body html{
+    height: 100vh;
+}
+
+.container{
+    background-image: url(pngtree-catering-menu-background-material-image_141325.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    position: relative;
+
+}
+
+.container label{
+    
+    font-size: 30px;
+    border:black solid 1px;
+    background-color: chartreuse;
+    letter-spacing: 3px;
+    font-weight: bold;
+   
+}
+
+.footer{
+    position: absolute;
+    bottom: 40px;
+    text-align: center;
+    left: 635px;
+}
+
+.table{
+    left: 540px;
+    position: absolute;
+    border: solid black 2px;
+    text-align: center;
+    width: fit-content;
+    background-color: rgb(240, 206, 143);
+    
+}
+
+
+.table td{
+    border: black solid 1px;
+}
+
+.table tr th{
+    border: solid black 1px;
+}
