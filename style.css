@@ -3,45 +3,60 @@
 }
 
 .container{
-    background-image:url(wt.jpg);
-    height:100vh;
-    width:100%;
-    background-size:cover;  
+    background-image: url(D.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+    position: relative;
 
+}
+
+.container h1{
+
+    color:rgb(223, 140, 17);
 }
 
 .container label{
     
-    font-size: 30px;
-    border:black solid 1px;
-    background-color: chartreuse;
-    letter-spacing: 3px;
+    font-size: 25px;
+    color:rgb(11, 226, 190);
+    
+    
     font-weight: bold;
    
 }
 
 .footer{
+    color:red;
+    font-size: 20px;
+    font-weight: bold;
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     text-align: center;
-    left: 635px;
+    left: 600px;
 }
 
 .table{
-    left: 540px;
+    left: 500px;
     position: absolute;
     border: solid black 2px;
     text-align: center;
     width: fit-content;
-    background-color: rgb(240, 206, 143);
+    background-color: rgb(28, 213, 226);
     
 }
 
 
 .table td{
+    color:rgb(28, 13, 228);
     border: black solid 1px;
 }
 
 .table tr th{
+    color:rgb(166, 11, 187);
     border: solid black 1px;
 }
+
